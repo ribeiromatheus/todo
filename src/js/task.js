@@ -16,7 +16,7 @@ function removeTask(element) {
 function deleteTask(id) {
 	console.log(id);
 
-	tasks = tasks.filter(task=>task.id != id);
+	tasks = tasks.filter(task => task.id != id);
 
 	updateScreen();
 }
